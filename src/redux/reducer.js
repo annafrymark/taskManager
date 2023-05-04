@@ -1,5 +1,5 @@
-import { statusFilters } from './constants';
 import { combineReducers } from 'redux';
+import { statusFilters } from './constants';
 
 const tasksInitialState = [
   { id: 0, text: 'Learn HTML and CSS', completed: true },
